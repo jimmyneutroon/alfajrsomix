@@ -1,0 +1,398 @@
+body{
+	font-family: 'Cairo', sans-serif;
+	overflow: hidden;
+}
+
+
+
+
+#app{
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: olive;
+	padding-top: 53px;
+}
+
+/* Start of #app-1 Element */
+#app-1{
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+#app h1.text-center{
+	font-size: 3em;
+	color: white;
+	align-self: center;
+}
+#app #btn-group{
+	display: flex;
+	justify-content: space-around;
+	width: 300px;
+	margin: 0 auto;
+
+}
+
+#app-1 div.text-center{
+	padding-bottom: 35px;
+}
+#app-1 div.h1{
+	padding-bottom: 15px;
+	margin-bottom: 0;
+}
+#app-1 .f_css_height{
+	height: 170px;
+	overflow: hidden;
+	padding: 0;
+}
+#app-1 .img-responsive{
+	background-color: #a0c56e;
+}
+#app-1 a.block{
+	display: block;
+	margin: 20px auto 0;
+	color: black;
+	height: 30px;
+	width: 80px;
+	padding: 7px 15px;
+	border: 2px solid black;
+	text-decoration: none;
+	line-height: 15px;
+	transition: background 0.4s ease, color 0.4s ease;
+}
+
+#app-1 a.block:hover{
+	background-color: black;
+	color: white;
+}
+/* End of #app-1 Element */
+
+
+
+
+/* Start #app-4 Element */
+#app-4{
+	background-color: #fff9ed;
+
+}
+#app-4 div.col-xs-12{
+	padding: 0 !important;
+}
+#app-4 .overlay-container{
+	position: relative;
+}
+#app-4 .overlay{
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	display: none;
+	top: 0;
+	color: white;
+	padding: 0 50px;
+}
+#app-4 .overlay button{
+	background-color: transparent;
+    border: 1px solid black;
+    border-radius: 0;
+    transition: border 0.4s ease-in-out,  color 0.4s ease-in-out;
+}
+#app-4 .overlay button:hover{
+	border-color: green;
+	color: green;
+}
+/* End #app-4 Element */
+
+
+
+
+#app-2{
+	padding-bottom: 70px;
+	color: #1f1f1f;
+	background-color: #ffffff;
+	padding-top: 80px;
+}
+
+#app-2 div.col-sm-6{
+    line-height: 25px;
+    font-size: 15px;
+    text-align: justify;
+    color: gray
+}
+#app-2 .f_css_ma_top{
+	margin-top: 0;
+	font-weight: bold;
+	color: #545454;
+}
+
+/* End of the #app-2 */
+
+
+
+
+/* Start of #app-7 Element */
+
+
+#app-7{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#app-7 .row > .col-sm-8{
+	padding-right: 0;
+}
+#app-7 .row > .col-sm-4{
+	padding-left: 0;
+}
+#app-7 .img{
+	margin-top: 30px;
+}
+#app-7 .img-rounded{
+	box-shadow: 14px 23px 27px -15px #000000;
+    padding: 5px;
+    border: 1px solid lightgray;
+    width: 100%;	
+}
+#app-7 .img-son{
+	padding: 0;
+}
+#app-7 .overlay{
+	background-color: rgba(131, 138, 8, 0.58);
+	position: absolute;
+	top: 0;
+}
+
+/* End of #app-7 Element */
+
+
+
+
+/* Start of the #app-5 */
+#app-5{
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+#app-5 > .container{
+	background-color: #efefef;
+
+}
+
+#app-5 div.h1{
+	margin-bottom: 40px;
+}
+
+#app-5 div.text-center{
+	margin-top: 30px;
+}
+
+#app-5 img{
+	padding: 5px;
+	background-color: white;
+	border-radius: 6px;
+	box-shadow: 4px 4px 16px 4px;
+}
+
+/* End of the #app-5 */
+
+
+
+/* Start of #app-3 */
+#app-3{
+	background-color: #f7c407;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: white
+}
+
+#app-3 .btn{
+    background-color: #ff700f;
+    border-color: #ad660000;
+    outline: 0 !important;
+}
+#app-3 textarea{
+	resize: none;
+}
+/* End of #app-3 */
+
+
+
+
+
+
+/*
+* Start of button.fa-arrow-up
+* this button make the window go scroll to the top of the document
+*/
+
+button.fa-arrow-up{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	display: none;
+	border: none;
+	outline: none;
+}
+/* End of button.fa-arrow-up  */
+
+
+
+#check{
+	border: 2px solid white;
+	color: white;
+	background-color: transparent;
+	height: 40px;
+	transition: all 0.4s ease;
+	outline: none;
+}
+
+#check:hover{
+	border-color: #2a4eff;
+	background-color: #2a4eff;
+}
+
+
+
+
+
+
+/* Start of the media Query */
+
+@media (max-width: 767px){
+
+
+	/* Start of navbar Element*/
+	.navbar a.navbar-brand{
+		margin: 0 auto;
+	}
+	/* End of navbar Element*/
+
+
+
+	/* Start of #app Element*/
+	#app h1.text-center{
+		font-size: 2.5em !important;
+		margin-bottom: 20px;
+		font-weight: bold;
+		margin-top: -40px;
+    	line-height: 1.4em;
+	}
+	/* End of #app Element*/
+
+
+
+	/* Start of the #app-1 */
+	#app-1 div.text-center{
+		padding-bottom: 70px;
+	}
+	#app-1 div.text-center:last-child{
+		padding-bottom: 0;
+	}
+	#app-1 div.h1{
+		padding-bottom: 40px;
+		font-size: 1.6em;
+		font-weight: bold;
+	}
+	#app-1 .img-responsive{
+		margin: 0 auto;
+	}
+	/*End of #app-1*/
+
+
+	/*Start of #app-1*/
+	#app-3 input#name{
+		margin-bottom: 20px;
+	}
+	/*End of #app-1*/
+
+
+	/*Start of #app-4*/
+	#app-4 div.h3{
+		margin: 10px 0 0 !important;
+	}
+	#app-4 div.exception{
+		font-size: 38px;
+		margin-bottom: 10px;
+		margin-top: 20% !important;
+	}
+	#app-4 p.lead{
+		margin-bottom: 5px;
+	}
+	/*Start of #app-4*/
+
+
+
+	#app-2 div.f_css_ma_top{
+		text-align: center;
+		margin-top: 30px;
+	}
+	#app-7{
+		padding-bottom: 50px;
+	}
+	#app-7 .img-rounded{
+		box-shadow: none;
+	} 
+
+
+
+}
+
+
+@media (min-width: 768px){
+
+	/*Start of #app-3*/
+	#app-3 .lead{
+		font-size: 16px;
+	}
+	/*End of #app-3*/
+
+	/*Start of #app-4*/
+	#app-4 div.h3{
+		margin: 10px 0 0 !important;
+	}
+	#app-4 div.exception{
+		font-size: 38px;
+		margin-bottom: 10px;
+		margin-top: 20% !important;
+	}
+	#app-4 p.lead{
+		margin-bottom: 5px;
+		font-size: 19px;
+	}
+
+	/*Start of #app-4*/ 
+}
+
+
+@media (min-width: 992px){
+	#app-4 div.h3{
+		margin: 24px 0 10px !important;
+		font-size: 28px !important;
+	}
+
+	#app-4 div.exception{
+		font-size: 38px;
+		margin-bottom: 10px;
+		margin-top: 30% !important;
+	}	
+}
+
+
+@media (min-width: 1200px){
+
+	/*Start of #app-3*/
+	#app-3 .lead{
+		font-size: 21px;
+	}
+	/*End of #app-3*/
+
+	#app-4 div.h3{
+		margin: 36px 0 14px !important;;
+		font-size: 28px !important;
+	}
+
+	#app-4 div.exception{
+		font-size: 38px !important;
+		margin-bottom: 10px;
+		margin-top: 30% !important;
+	}	
+}

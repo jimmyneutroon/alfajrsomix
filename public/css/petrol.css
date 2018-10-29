@@ -1,0 +1,126 @@
+header{
+	background-image: url('http://localhost:8000/images/petrol_background.jpg');
+	background-size: cover;
+	padding-top: 53px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+header .big{
+	color: white;
+	font-weight: bolder;
+    font-size: 5em;
+    padding-top: 100px;
+}
+header .big p{
+	color: #e4e4e4;
+	font-weight: normal;
+}
+header button{
+	background-color: #ff7600;
+    border: 2px solid #ff5b5b00;
+    padding: 10px 25px;
+    outline: none !important;
+    margin: 20px 15px 0;
+    transition: color 0.4s ease;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+header button:hover{
+	color: white;
+}
+.red{
+	color: #500d0d;
+}
+ 
+
+
+/* Start #app-1 Element */
+
+section#app-1{
+    padding-top: 30px;
+    
+}
+
+/* End of #app-1 Element */
+
+
+
+/* Start #app-2 Element */
+
+section#app-2{
+	padding-top: 30px;
+    background-color: #f7f7f7;    
+}
+section#app-2 h3{
+    margin-bottom: 60px;
+}
+/* End of #app-2 Element */
+
+
+
+/* jssor slider loading skin spin css */
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.jssora061 {display:block;position:absolute;cursor:pointer;}
+.jssora061 .a {fill:none;stroke:#fff;stroke-width:360;stroke-linecap:round;}
+.jssora061:hover {opacity:.8;}
+.jssora061.jssora061dn {opacity:.5;}
+.jssora061.jssora061ds {opacity:.3;pointer-events:none;}
+
+
+
+
+
+@media(max-width: 767px){
+    header .big{
+        font-size: 3em;
+        text-align: center
+    }
+    .col-md-4{
+        margin-bottom: 50px;
+    }
+}
+
+
+@media(min-width: 768px){
+    header .big{
+        font-size: 5em;
+        text-align: center
+    }
+    #app-1 .col-md-4 > h3 + p.text-center{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .col-md-4{
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 992px){
+    header .big{
+        font-size: 6em;
+        text-align: center
+    }
+    .col-md-4{
+        margin-bottom: 50px;
+    }
+}
